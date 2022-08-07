@@ -1,6 +1,6 @@
 :root {
     /*--header-color: rgba(193, 246, 228, 0.85);*/
-    --header-color: rgba(202, 200, 200, 0.269);
+    --header-color: rgba(255, 228, 196, 0.505);
     --text-color: rgba(228, 190, 19, 0.948);;
 }
 
@@ -142,7 +142,8 @@ p {
 #work a img:hover {
     transform: skew(2deg);
     color: var(--text-color);
-    opacity: 0.8;
+    opacity: 0.7;
+    
 }
 
 main {
