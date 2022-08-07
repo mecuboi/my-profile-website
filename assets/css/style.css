@@ -1,0 +1,16 @@
+:root {
+    --header-color: aquamarine
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+header {
+    background-color: rgba(193, 246, 228, 0.754)
+}
+
+body {
+   
+}
