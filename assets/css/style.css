@@ -32,71 +32,84 @@ main {
 
 header {
     display: flex;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;  
 }
 
-header section {
+/* header section {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     justify-content: flex-end;
+    border:solid red 1px;
+} */
+
+.header1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
     /* border:solid red 1px; */
-}
-
-header section nav {
-    display: flex;
     align-items: center;
-    
 }
 
-header section nav ul {
-    list-style-type: none;
+#main-logo {
+    height: 120px;
+}
+
+.header2 {
     display: flex;
-    margin-right: 100px;
-    
-   
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center ;
+    width: 100%;
+    /* border:solid greenyellow 1px; */
 }
 
-header section nav ul li a{
+#my-picture {
+    display: flex;
+    flex: 0 0 300px;
+    justify-content: center;
+    width: 20%;
+    /* border: solid red; */
+}
+
+.my-name {
+    display:flex;
+    justify-content: flex-start;
+    color:var(--text-color);
+    font-weight: 400; 
+    width:50%;   
+    /* border: solid red; */
+    font-size: 65px;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    /* border:solid red 1px;  */
+}
+
+nav a{
     padding: 20px 30px;
     margin: 20px 0;
     text-decoration: none;
     color: navy;
     font-size: 27px;
     font-weight:300;
-    text-shadow: 5px 5px 5px var(--text-color)
-    
+    text-shadow: 5px 5px 5px var(--text-color);
+    transition: 0.3s;
 }
 
-#main-logo {
-    position: absolute;
-    left: 10px;
-    height: 120px;
-    margin: 50px 10px;
-    
+nav a:hover{
+    font-size: 180%;
+    color: rgba(216, 40, 70, 0.809);
 }
 
-.header2 {
-    justify-content: space-between;
-    align-items: center;
-}
-
-#my-picture {
-    
-    justify-content: center;
-    width: 50%;
-    
-    margin-top: 100px;
-    
-}
-
-.my-name {
-    font-size: 65px;
-    justify-content: center;
-    color:var(--text-color);
-    font-weight: 400; 
-    width:50%;
-    
+nav a:active{
+    font-size: 160%;
 }
 
 .my-name h1{
@@ -180,7 +193,10 @@ p {
     transform: skew(2deg);
     color: var(--text-color);
     opacity: 0.7;
-    
+}
+
+#work a img:active {
+    transform: scale(90%);
 }
 
 main {
@@ -226,8 +242,8 @@ footer p {
 
 @media screen and (max-width: 768px) {
     main,
-    header section nav,
-    header,
+    nav,
+    header1,
     .header2 {
       flex-direction: column;
     }
