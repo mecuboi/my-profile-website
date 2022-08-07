@@ -12,6 +12,10 @@
     
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 header {
     background-color: var(--header-color);
     height: 900px;
@@ -120,6 +124,7 @@ p {
     max-width: 100%;
     max-height: 100%;
     border-radius: 10px;
+    transition: 0.3s;
 }
 
 #work h3 {
@@ -132,6 +137,11 @@ p {
     font-size: 35px;
     border-radius: 10px;
     max-width: fit-content;
+}
+
+#work a img:hover {
+    transform: skew(2deg);
+    color: var(--text-color);
 }
 
 main {
