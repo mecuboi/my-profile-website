@@ -51,6 +51,7 @@ header {
 
 #main-logo {
     height: 120px;
+    opacity: 0.6;
 }
 
 .header2 {
