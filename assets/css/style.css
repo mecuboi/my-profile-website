@@ -46,8 +46,7 @@ header section {
 header section nav {
     display: flex;
     align-items: center;
-    margin-right: 90px;
-    padding: 70px 0;
+    
 }
 
 header section nav ul {
@@ -77,23 +76,27 @@ header section nav ul li a{
     
 }
 
+.header2 {
+    justify-content: space-between;
+    align-items: center;
+}
+
 #my-picture {
-    height: 450px;
+    
     justify-content: center;
     width: 50%;
-    padding: 0 300px;
-    flex: 0 0 450px;
+    
     margin-top: 100px;
     
 }
 
 .my-name {
     font-size: 65px;
-    justify-content: flex-start;
+    justify-content: center;
     color:var(--text-color);
     font-weight: 400; 
     width:50%;
-    padding: 0 0 0 300px;
+    
 }
 
 .my-name h1{
@@ -223,8 +226,9 @@ footer p {
 
 @media screen and (max-width: 768px) {
     main,
-    nav,
-    header {
+    header section nav,
+    header,
+    .header2 {
       flex-direction: column;
     }
   }
