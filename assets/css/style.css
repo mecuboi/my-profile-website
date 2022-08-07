@@ -1,22 +1,24 @@
 :root {
-    --header-color: rgba(193, 246, 228, 0.85)
+    /*--header-color: rgba(193, 246, 228, 0.85);*/
+    --header-color: white;
+    --text-color: rgba(241, 200, 15, 0.81);;
 }
 
 * {
     box-sizing: border-box;
     font-family: Helvetica, sans-serif;
+    
 }
 
 header {
     background-color: var(--header-color);
-    
+    height: 900px;
+   
 }
 
 #main-logo {
-    font-size: 75px;
-    font-family: ;
-    font-style: italic;
-
+    height: 120px;
+    margin: 50px 0;
 }
 
 header section {
@@ -25,7 +27,7 @@ header section {
 }
 
 header section nav {
-    margin: 50px 100px 0 0;
+    margin: 100px 100px;
     
 }
 
@@ -37,28 +39,48 @@ header section nav ul {
 }
 
 header section nav ul li a{
-    padding: 20px 20px;
+    padding: 20px 30px;
     margin: 20px 0;
     text-decoration: none;
-    color:rgba(0, 0, 128, 0.60);
+    color: navy;
     font-size: 27px;
     font-weight:300;
+    text-shadow: 5px 5px 5px var(--text-color)
     
+}
+
+#my-picture {
+    height: 450px;
 }
 
 .my-name {
-    font-size: 120px;
-    justify-content: center;
-    color:rgba(0, 0, 128, 0.70);
-    
+    font-size: 65px;
+    justify-content: space-around;
+    color:var(--text-color);
+    font-weight: 400; 
     
 }
 
-header section img {
-    height: 150px;
-    margin: 10px;
+.my-name h1{
+    font-weight: 300;
+    color: rgba(241, 200, 15, 0.81);
 }
 
-body {
-   
+main {
+    margin: 0 200px;
+}
+
+
+h2 {
+    font-size: 50px;
+    font-weight: 450;
+    padding-top: 30px;
+    border-top: solid var(--text-color) 2px;
+    margin: 0 0px;
+    color: var(--text-color);
+}
+
+p {
+    font-size: 30px;
+    font-weight: 200;
 }
