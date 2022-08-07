@@ -94,7 +94,7 @@ p {
     justify-content: space-between;
     height: 2400px;
     margin: 50px auto;
-    border: solid blue 2px;
+    /* border: solid blue 2px; */
     max-width:1430px;
     
     
@@ -103,7 +103,7 @@ p {
 #work article {
     width: 49.5%;
     max-height: 30%;
-    border: solid red 2px;
+    /* border: solid red 2px; */
     margin: 10px 0;
 }
 
