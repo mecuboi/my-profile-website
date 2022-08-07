@@ -20,7 +20,6 @@ header {
     display: flex;
     flex-wrap: wrap;
     background-color: var(--header-color);
-    height: 900px;
     margin-bottom: 20px;
    
 }
@@ -33,15 +32,12 @@ main {
 header {
     display: flex;
     flex-wrap: wrap;  
+    padding: 20px 0 50px 0;
 }
 
-/* header section {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: flex-end;
-    border:solid red 1px;
-} */
+.website {
+    font-size:
+}
 
 .header1 {
     display: flex;
@@ -50,6 +46,7 @@ header {
     justify-content: space-around;
     /* border:solid red 1px; */
     align-items: center;
+    padding: 10px;
 }
 
 #main-logo {
@@ -65,11 +62,12 @@ header {
     /* border:solid greenyellow 1px; */
 }
 
+
 #my-picture {
     display: flex;
     flex: 0 0 300px;
     justify-content: center;
-    width: 20%;
+    
     /* border: solid red; */
 }
 
@@ -77,8 +75,7 @@ header {
     display:flex;
     justify-content: flex-start;
     color:var(--text-color);
-    font-weight: 400; 
-    width:50%;   
+    font-weight: 400;   
     /* border: solid red; */
     font-size: 65px;
     align-items: center;
