@@ -142,6 +142,7 @@ p {
 #work a img:hover {
     transform: skew(2deg);
     color: var(--text-color);
+    opacity: 0.8;
 }
 
 main {
