@@ -1,6 +1,6 @@
 :root {
     /*--header-color: rgba(193, 246, 228, 0.85);*/
-    --header-color: white;
+    --header-color: rgba(202, 200, 200, 0.269);
     --text-color: rgba(228, 190, 19, 0.948);;
 }
 
@@ -16,9 +16,10 @@ header {
    
 }
 
+
 #main-logo {
     height: 120px;
-    margin: 50px 0;
+    margin: 50px 10px;
 }
 
 header section {
@@ -76,27 +77,75 @@ h2 {
     font-weight: 450;
     padding-top: 30px;
     border-top: solid var(--text-color) 2px;
-    margin: 0 0px;
+    margin: 0 0;
     color: var(--text-color);
     width:100%;
+   
 }
 
 p {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 200;
 }
 
 #work {
     display: flex;
     flex-wrap: wrap;
-
-}
-
-#work article .google {
-    width: 100%;
-}
-
-#work article img {
-    width: 30%;
+    justify-content: space-between;
+    height: 2400px;
+    margin: 50px auto;
+    border: solid blue 2px;
+    max-width:1430px;
     
+    
+}
+
+#work article {
+    width: 49.5%;
+    max-height: 30%;
+    border: solid red 2px;
+    margin: 10px 0;
+}
+
+#work .google {
+    width: 100%;
+   
+}
+
+#work img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+main {
+    max-width: 1500px;
+    margin: auto;
+}
+
+#contact-me p {
+    font-size: 20px;
+}
+
+#contact-me ul {
+    list-style: none;
+    position: relative;
+    left: -40px;
+    margin-bottom: 200px;
+}
+
+#contact-me ul li{
+    font-size: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: var(--header-color);
+}
+
+h3 {
+    font-weight: 500;
+}
+
+footer p {
+    font-size: 20px
 }
