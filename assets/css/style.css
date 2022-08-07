@@ -7,12 +7,15 @@
 * {
     box-sizing: border-box;
     font-family: Helvetica, sans-serif;
+    margin-left: 0;
+    margin-right:0;
     
 }
 
 header {
     background-color: var(--header-color);
     height: 900px;
+    margin-bottom: 20px;
    
 }
 
