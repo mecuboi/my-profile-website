@@ -17,6 +17,8 @@ html {
 }
 
 header {
+    display: flex;
+    flex-wrap: wrap;
     background-color: var(--header-color);
     height: 900px;
     margin-bottom: 20px;
@@ -31,18 +33,21 @@ main {
 header {
     display: flex;
     flex-wrap: wrap;
+    
 }
 
 header section {
     display: flex;
     width: 100%;
     justify-content: flex-end;
+    /* border:solid red 1px; */
 }
 
 header section nav {
     display: flex;
     align-items: center;
     margin-right: 90px;
+    padding: 70px 0;
 }
 
 header section nav ul {
@@ -69,18 +74,26 @@ header section nav ul li a{
     left: 10px;
     height: 120px;
     margin: 50px 10px;
+    
 }
 
 #my-picture {
     height: 450px;
+    justify-content: center;
+    width: 50%;
+    padding: 0 300px;
+    flex: 0 0 450px;
+    margin-top: 100px;
+    
 }
 
 .my-name {
     font-size: 65px;
-    justify-content: space-around;
+    justify-content: flex-start;
     color:var(--text-color);
     font-weight: 400; 
-    
+    width:50%;
+    padding: 0 0 0 300px;
 }
 
 .my-name h1{
@@ -109,11 +122,14 @@ p {
     font-weight: 200;
 }
 
+#worksection {
+    width:100%;
+}
+
 #work {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    height: 2400px;
     margin: 50px auto;
     /* border: solid blue 2px; */
     max-width:1430px;
@@ -124,6 +140,7 @@ p {
 #work article {
     width: 49.5%;
     max-height: 30%;
+    max-width: 600px;
     /* border: solid red 2px; */
     margin: 10px 0;
     flex: 1 1 700px;
@@ -133,6 +150,7 @@ p {
 #work .google {
     width: 100%;
     flex:1 1 900px;
+    max-width: 100%;
    
 }
 
@@ -164,7 +182,12 @@ p {
 
 main {
     max-width: 1500px;
-    margin: auto;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+#contact-me {
+    width: 100%;
 }
 
 #contact-me p {
@@ -186,6 +209,7 @@ footer {
     text-align: center;
     background-color: var(--header-color);
     padding:10px 0;
+   
 }
 
 h3 {
