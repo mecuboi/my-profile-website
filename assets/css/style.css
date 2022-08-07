@@ -1,7 +1,7 @@
 :root {
     /*--header-color: rgba(193, 246, 228, 0.85);*/
     --header-color: white;
-    --text-color: rgba(241, 200, 15, 0.81);;
+    --text-color: rgba(228, 190, 19, 0.948);;
 }
 
 * {
@@ -78,9 +78,25 @@ h2 {
     border-top: solid var(--text-color) 2px;
     margin: 0 0px;
     color: var(--text-color);
+    width:100%;
 }
 
 p {
     font-size: 30px;
     font-weight: 200;
+}
+
+#work {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#work article .google {
+    width: 100%;
+}
+
+#work article img {
+    width: 30%;
+    
 }
