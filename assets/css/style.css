@@ -1,5 +1,4 @@
 :root {
-    /*--header-color: rgba(193, 246, 228, 0.85);*/
     --header-color: rgba(255, 228, 196, 0.505);
     --text-color: rgba(228, 190, 19, 0.948);;
 }
@@ -53,6 +52,7 @@ header {
 #main-logo:hover {
     transform: scale(110%);
     border: solid rgba(0, 0, 0, 0.522) 2px;
+    opacity: 0.8;
 }
 
 .header2 {
@@ -61,6 +61,7 @@ header {
     justify-content: space-around;
     align-items: center ;
     width: 100%;
+    margin-top: 40px;
 }
 
 
@@ -68,6 +69,18 @@ header {
     display: flex;
     flex: 0 0 300px;
     justify-content: center;
+    transition: 0.3s;
+}
+
+/* this is just for fun */
+#my-picture:hover {
+    transform:scale(105%);
+    box-shadow: 0 0 10px 15px rgba(230, 227, 78, 0.437);
+}
+
+#my-picture:active {
+    transform: scale(95%);
+    box-shadow: 0 0 10px 15px rgba(85, 219, 224, 0.437);
 }
 
 .my-name {
@@ -87,7 +100,7 @@ nav {
 }
 
 nav a{
-    padding: 20px 40px;
+    padding: 20px 40px 0;
     margin: 20px 0;
     text-decoration: none;
     color: navy;
@@ -141,10 +154,7 @@ p {
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 50px auto;
-    /* border: solid blue 2px; */
-    max-width:1430px;
-    
-    
+    max-width:1430px;    
 }
 
 #work article {
@@ -190,6 +200,7 @@ p {
 
 #work a img:active {
     transform: scale(90%);
+    box-shadow: 0 0 10px 15px rgba(172, 170, 58, 0.437);
 }
 
 main {
