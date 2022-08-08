@@ -34,6 +34,7 @@ header {
     padding: 20px 0 50px 0;
 }
 
+/* This is to edit the flexbox section of the top header */
 .header1 {
     display: flex;
     flex-wrap: wrap;
@@ -49,12 +50,14 @@ header {
     transition: 0.3s;
 }
 
+/* animation for logo */
 #main-logo:hover {
     transform: scale(110%);
     border: solid rgba(0, 0, 0, 0.522) 2px;
     opacity: 0.8;
 }
 
+/* This is to edit the bottom section of the header */
 .header2 {
     display: flex;
     flex-wrap: wrap;
@@ -99,6 +102,7 @@ nav {
     justify-content: flex-end;
 }
 
+/* this is to organize the navigation */
 nav a{
     padding: 20px 40px 0;
     margin: 20px 0;
@@ -110,6 +114,7 @@ nav a{
     transition: 0.3s;
 }
 
+/* navigation animation */
 nav a:hover{
     font-size: 180%;
     color: rgba(216, 40, 70, 0.809);
@@ -180,6 +185,7 @@ p {
     transition: 0.3s;
 }
 
+/* this is to make the company's name be inside the company's logo */
 #work h3 {
     position: relative;
     top: -120px;
@@ -243,7 +249,7 @@ footer p {
     font-size: 20px
 }
 
-
+/* to switch flex direction in smaller screens */
 @media screen and (max-width: 768px) {
     main,
     nav,
@@ -252,4 +258,5 @@ footer p {
     header {
       flex-direction: column;
     }
+
   }
