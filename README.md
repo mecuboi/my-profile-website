@@ -29,12 +29,12 @@ The parts that are interactive are:
 Here are the websites that helps me in building this project:
 - https://www.w3schools.com/
 - https://www.google.com/
-- The bootcamp lessons
 - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+- The bootcamp lessons
 
 ## License
 
-MIT License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/mecuboi/my-profile-website/blob/main/LICENSE)
 
 
 ---
